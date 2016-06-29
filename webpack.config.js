@@ -43,7 +43,7 @@ module.exports = {
         path: './app',
         filename: 'index.bundle.js'
     },
-    devtool: 'source-map',
+    devtool: 'inline-source-map',
     resolve: {
         alias: {
             'webworkify': 'webworkify-webpack'
