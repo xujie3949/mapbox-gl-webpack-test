@@ -70,7 +70,7 @@ module.exports = {
             {
                 test: /\.js$/,
                 include: [
-                    path.resolve('node_modules/mapbox-gl')
+                    path.resolve('node_modules/mapbox-gl-shaders/index.js')
                 ],
                 loader: 'transform/cacheable?brfs'
             }]
